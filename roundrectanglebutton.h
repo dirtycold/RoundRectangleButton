@@ -31,7 +31,7 @@ public:
 signals:
     void clicked ();
 
-private:
+protected:
     bool event (QEvent *event);
     void paintEvent (QPaintEvent *event);
 
